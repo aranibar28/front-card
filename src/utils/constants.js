@@ -1,6 +1,6 @@
 import bd from "../assets/empty.jpg";
 import logo from "../assets/logo.png";
-export const BASE_API = "https://back-card.herokuapp.com";
+export const BASE_API = "https://backcard.herokuapp.com";
 export const TOKEN = "token";
 
 export const ORDER_STATUS = {
