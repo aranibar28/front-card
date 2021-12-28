@@ -1,0 +1,26 @@
+.menu-home {
+  height: 60px !important;
+  margin-bottom: 0 !important;
+
+  @media (max-width: 767px) {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.pre-pusher {
+  height: 100vh;
+}
+
+.pre-pusher,
+.pusher {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ui.menu {
+  border-radius: 0 !important;
+  .logo {
+    width: 120px;
+  }
+}

@@ -1,0 +1,48 @@
+.order-item-admin {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  &.pending {
+    color: orangered;
+  }
+
+  &.delivered {
+    color: green;
+  }
+
+  &__time {
+    position: absolute;
+    top: -14px;
+    right: 10px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: red;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  &__product {
+    display: flex;
+    align-items: center;
+    .ui.image {
+      width: 100px;
+      height: 80px;
+      margin-right: 20px;
+    }
+    p {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+  button {
+    height: 48px;
+    margin-top: 14px !important;
+  }
+}

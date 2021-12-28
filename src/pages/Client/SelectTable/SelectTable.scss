@@ -1,0 +1,42 @@
+.select-table {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #f44b03, black);
+  padding: 0 20px;
+
+  &__content {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    > h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0px;
+    }
+
+    .ui.image {
+      width: 70%;
+      margin: 20px 0;
+    }
+
+    .ui.form {
+      width: 100%;
+      margin: 20px;
+    }
+
+    &-error {
+      margin-top: 10px;
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.tables-list-admin {
+  &__reload {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .one,
+      .two,
+      .three,
+      .four {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+      }
+
+      .one {
+        background-color: #0dcaf0;
+      }
+      .two {
+        background-color: #198754;
+      }
+      .three {
+        background-color: #ffc107;
+      }
+      .four {
+        background-color: #000;
+      }
+    }
+  }
+
+  &__tables {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+}

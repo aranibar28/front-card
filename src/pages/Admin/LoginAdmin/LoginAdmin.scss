@@ -1,0 +1,28 @@
+.login-admin {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a72;
+  background: linear-gradient(to left, #f44b03, black);
+  padding: 0 20px;
+
+  &__content {
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+
+    > div {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .ui.image {
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+}

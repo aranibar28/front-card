@@ -1,0 +1,23 @@
+.carousel {
+  .item {
+  }
+
+  img {
+    margin: 0 auto;
+    width: 300px !important;
+    height: 240px !important;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+
+  &__title {
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

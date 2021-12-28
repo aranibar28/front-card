@@ -1,0 +1,45 @@
+.ui.primary.button {
+  background-color: #f44b03;
+  color: #fff;
+  border: radius 8px;
+
+  &:hover {
+    background-color: #f44b03;
+    opacity: 0.9;
+  }
+
+  &:focus {
+    background-color: #f44b03;
+  }
+  &:active {
+    background-color: #f44b03;
+  }
+}
+
+.ui.primary.button.true {
+  background-color: green;
+  color: #fff;
+  border: radius 8px;
+
+  &:hover {
+    background-color: green;
+    opacity: 0.9;
+  }
+
+  &:focus {
+    background-color: green;
+  }
+  &:active {
+    background-color: green;
+  }
+}
+
+.swal2-confirm {
+  background-color: #f44b03 !important;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
