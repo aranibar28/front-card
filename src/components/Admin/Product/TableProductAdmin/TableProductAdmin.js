@@ -1,10 +1,11 @@
 import React from "react";
 import { Table, Image, Button, Icon } from "semantic-ui-react";
-import { map } from "lodash";
+import { map, sortBy } from "lodash";
 import "./TableProductAdmin.scss";
 
 export function TableProductAdmin(props) {
   const { products, updateProduct, deleteProduct } = props;
+  const orderProduct = sortBy(products, (p) => p.id);
 
   return (
     <Table className="table-product-admin">
@@ -19,7 +20,7 @@ export function TableProductAdmin(props) {
         </Table.Row>
       </Table.Header>
       <Table.Body>
-        {map(products, (product, index) => (
+        {map(orderProduct, (product, index) => (
           <Table.Row key={index}>
             <Table.Cell width={2}>
               <Image src={product.image} />
